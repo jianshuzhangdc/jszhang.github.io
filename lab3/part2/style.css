@@ -3,7 +3,7 @@ html {
 }
 
 /* Your CSS below here */
-div {
+p {
   width: 200px;
   height: 200px;
   margin: auto;
@@ -17,6 +17,4 @@ div {
   border: 1px solid orange;
   background: linear-gradient(to bottom right, transparent, black(0.2)30%, black(0.2)100%;
   box-shadow: 2px 2px 5px black, inset 2px 2px 2px white(0.5), inset -2px -2px 2px black(0.5);
-  
-  
 }
