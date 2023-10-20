@@ -43,3 +43,84 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+        font-family: "Bitstream Vera Serif Bold";
+        src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+      }
+	  
+@font-face {
+        font-family: 'Playpen Sans', cursive;
+        src: url("https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap");
+      }
+	  
+html {
+ 
+  font-size: 10px;
+}
+
+body {
+  font-family: "Bitstream Vera Serif Bold";
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+}
+
+h1, h2 {
+  font-family: "Playpen Sans", cursive;
+  letter-spacing: 0.3rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  }
+  
+section h2 + p {
+  text-indent: 20px;
+}
+
+a {
+  outline: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: rebeccapurple;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+a:active {
+  color: #d4a100;
+  background-color: unset;
+}
+
+a[href^="https"] {
+  padding-right: 2rem;
+  background: url(external-link-52.png)
+    no-repeat 100% 0;
+  background-size: 16px 16px;
+}
+
+li {
+  line-height: 1.3em;
+}
+
+nav ul li {
+  list-style-type: none;
+  border: 5px solid black;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
