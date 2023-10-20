@@ -6,13 +6,13 @@ html {
 div {
   width: 200px;
   height: 200px;
-  background-color: red;
   margin: auto;
   text-align: center;
   line-height: 9;
   font-size: 1.125rem; /* rem value is depands on the value of the default value for font-size, it is 16px, so 1.125 * 16px = 18px */
   color: white;
   text-shadow: 1px 1px 2px black;
+  background-color: red;
   border-radius: 20px;
   border: 1px solid orange;
   background: linear-gradient(to bottom right, transparent, black(0.2)30%, black(0.2)100%;
