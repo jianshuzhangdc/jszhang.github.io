@@ -1,11 +1,11 @@
 randomize.addEventListener('click', result);
 
 function result() {
-  let newStory = storyText;
+  const newStory = storyText;
   
-  let xItem = randomValueFromArray(insertX);
-  let yItem = randomValueFromArray(insertY);
-  let zItem = randomValueFromArray(insertZ);
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
   
   newStory = newStory.replace(":insertx:", xItem);
   newStory = newStory.replace(":inserty:", yItem);
