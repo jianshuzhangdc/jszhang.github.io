@@ -27,15 +27,15 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-	newstory = newstory.replace("Bob", name);
+	newStory = newStory.replace("Bob", name);
 
   }
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300 * 0.071429)+ "stone";
     const temperature =  Math.round((94-32) * 5 / 9)+ "centigrade";
-	newStory.replace("weight","300 pounds")
-    newStory.replace("temperature", "94 farenheit")
+	newStory = newStory.replace("weight","300 pounds")
+    newStory = newStory.replace("temperature", "94 farenheit")
 
   }
 
